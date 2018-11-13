@@ -1,0 +1,46 @@
+{
+  "name": "personal_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "semantic-ui-react": "^0.82.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/polyfill": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "@babel/preset-stage-2": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^8.0.0-beta.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-client": "webpack-cli --watch --mode development",
+    "build-client-watch": "webpack -w",
+    "start": "node Server",
+    "start-dev": "NODE_ENV='development' npm run build-client-watch",
+    "start-server": "nodemon Server -e html,js,scss --ignore Client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessupcn/personalPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jessupcn/personalPortfolio/issues"
+  },
+  "homepage": "https://github.com/Jessupcn/personalPortfolio#readme"
+}
