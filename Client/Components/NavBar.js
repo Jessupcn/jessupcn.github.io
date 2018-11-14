@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <div className="NavBar">
-      <div>
+      <div className="NavTitle">
         <img src="../../Media/me.jpg" className="NavPic" />
         <h3>Connor Jessup</h3>
       </div>
