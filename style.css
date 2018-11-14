@@ -3,6 +3,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  height: 800px;
+  min-height: 700px;
 }
 
 .NavBar {
@@ -29,6 +31,7 @@
   border-radius: 50%;
   border: 2px solid whitesmoke;
   margin: 0px;
+  padding-right: 20px;
 }
 
 .NavBarHeader {
