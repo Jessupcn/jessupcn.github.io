@@ -100,7 +100,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var About = function About() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hello, World!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "I am Con!"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "About Connor Jessup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "aboutSectionInfo"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../Media/me.jpg"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "aboutSectionText"
+  }, "I'm Connor Jessup, a Software Engineer currently located in the New York City area. After graduating from the University of Michigan with a B.S. in Environmental Studies and DePaul University with a M.S. in Management, I worked at a small manufacturing company (Jessup Engineering Inc.) that my grandfather founded for 2 years. I ultimately decided to pursue my passion and transition into Software Engineering, and attended Fullstack Academy of Code from January through May 2018. Since then, I have been working on various personal projects to develop my coding further as well as studying algorithms and data structures!")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -130,15 +140,23 @@ var NavBar = function NavBar() {
     className: "NavPic"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "NavBarHeader"
-  }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "Contact"));
+  }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "Contact")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
@@ -207,7 +225,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var About = function About() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hello, World!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "I am Con!"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "About Connor Jessup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "aboutSectionInfo"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../Media/me.jpg"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "aboutSectionText"
+  }, "I'm Connor Jessup, a Software Engineer currently located in the New York City area. After graduating from the University of Michigan with a B.S. in Environmental Studies and DePaul University with a M.S. in Management, I worked at a small manufacturing company (Jessup Engineering Inc.) that my grandfather founded for 2 years. I ultimately decided to pursue my passion and transition into Software Engineering, and attended Fullstack Academy of Code from January through May 2018. Since then, I have been working on various personal projects to develop my coding further as well as studying algorithms and data structures!")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -237,15 +265,23 @@ var NavBar = function NavBar() {
     className: "NavPic"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "NavBarHeader"
-  }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader NavTitleContainer"
-  }, "Contact"));
+  }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "NavTitleContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "NavBarHeader"
+  }, "Contact")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
