@@ -124,20 +124,20 @@ var NavBar = function NavBar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavBar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "NavTitle"
+    className: "NavTitleContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/me.jpg",
     className: "NavPic"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "NavBarHeader"
   }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "Contact"));
 };
 
@@ -231,20 +231,20 @@ var NavBar = function NavBar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavBar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "NavTitle"
+    className: "NavTitleContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/me.jpg",
     className: "NavPic"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "NavBarHeader"
   }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+    className: "NavBarHeader NavTitleContainer"
   }, "Contact"));
 };
 
