@@ -5,7 +5,12 @@
   background-position: center bottom;
   height: 800px;
   min-height: 700px;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+/*
+*   NavBar CSS
+*/
 
 .NavBar {
   height: 48px;
@@ -23,6 +28,22 @@
   align-items: center;
   flex: flex-grow;
   align-self: center;
+  font-size: 1.3em;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* .nav-item a {
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+} */
+.NavTitleContainer:hover {
+  color: #202b47;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
 }
 
 .NavPic {
@@ -38,5 +59,17 @@
 .NavBarHeader {
   color: white;
   margin: 0px;
-  /* margin-top: 12.5px; */
 }
+
+/*
+*   Section CSS
+*/
+.sectionContainer {
+}
+
+.sectionHeader {
+}
+
+/*
+*   About Section CSS
+*/
