@@ -4,23 +4,21 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div className="NavBar">
-      <div className="NavTitleContainer">
+      <div className="nav-item">
         <img src="../../Media/me.jpg" className="NavPic" />
         <h3 className="NavBarHeader">Connor Jessup</h3>
       </div>
-      <div className="NavTitleContainer">
-        <Link to={`/about`} className="NavBarItem">
-          About
-        </Link>
+      <div className="nav-item">
+        <Link to={`/about`}>About</Link>
       </div>
-      <div className="NavTitleContainer">
-        <Link className="NavBarItem">Resume</Link>
+      <div className="nav-item">
+        <Link>Resume</Link>
       </div>
-      <div className="NavTitleContainer">
-        <Link className="NavBarItem">Projects</Link>
+      <div className="nav-item">
+        <Link>Projects</Link>
       </div>
-      <div className="NavTitleContainer">
-        <Link className="NavBarItem">Contact</Link>
+      <div className="nav-item">
+        <Link>Contact</Link>
       </div>
     </div>
   );

@@ -48,7 +48,7 @@
   zoom: 300%;
 }
 
-.NavBarItem {
+.nav-item link {
   color: white;
   margin: 0px;
   font-size: 1.3em;
@@ -56,7 +56,7 @@
   border-radius: 5px;
 }
 
-.NavTitleItem:hover {
+.nav-item link:hover {
   color: #202b47;
   background-color: #fff;
   box-shadow: #d3d3d3;
