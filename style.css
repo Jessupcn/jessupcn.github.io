@@ -28,9 +28,6 @@
   align-items: center;
   flex: flex-grow;
   align-self: center;
-  font-size: 1.3em;
-  padding: 5px;
-  border-radius: 5px;
 }
 
 /* .nav-item a {
@@ -40,11 +37,6 @@
   padding: 5px;
   border-radius: 5px;
 } */
-.NavTitleContainer:hover {
-  color: #202b47;
-  background-color: #fff;
-  box-shadow: #d3d3d3;
-}
 
 .NavPic {
   height: 25px;
@@ -53,12 +45,21 @@
   border: 2px solid whitesmoke;
   margin: 0px;
   margin-right: 10px;
-  zoom: 140%;
+  zoom: 300%;
 }
 
-.NavBarHeader {
+.NavBarItem {
   color: white;
   margin: 0px;
+  font-size: 1.3em;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.NavTitleItem:hover {
+  color: #202b47;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
 }
 
 /*
@@ -73,3 +74,8 @@
 /*
 *   About Section CSS
 */
+
+.aboutSectionPic {
+  width: 100px;
+  height: auto;
+}

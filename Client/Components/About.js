@@ -5,7 +5,7 @@ const About = () => {
     <div className="sectionContainer">
       <h1 className="sectionHeader">About Connor Jessup</h1>
       <div className="aboutSectionInfo">
-        <img src="../../Media/me.jpg" />
+        <img className="aboutSectionPic" src="../../Media/me.jpg" />
         <p className="aboutSectionText">
           I'm Connor Jessup, a Software Engineer currently located in the New
           York City area. After graduating from the University of Michigan with

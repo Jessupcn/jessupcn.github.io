@@ -107,6 +107,7 @@ var About = function About() {
   }, "About Connor Jessup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "aboutSectionInfo"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "aboutSectionPic",
     src: "../../Media/me.jpg"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "aboutSectionText"
@@ -128,6 +129,8 @@ var About = function About() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
 
 
 var NavBar = function NavBar() {
@@ -142,20 +145,21 @@ var NavBar = function NavBar() {
     className: "NavBarHeader"
   }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/about",
+    className: "NavBarItem"
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "NavBarItem"
   }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "NavBarItem"
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "NavBarItem"
   }, "Contact")));
 };
 
@@ -232,6 +236,7 @@ var About = function About() {
   }, "About Connor Jessup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "aboutSectionInfo"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "aboutSectionPic",
     src: "../../Media/me.jpg"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "aboutSectionText"
@@ -253,6 +258,8 @@ var About = function About() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
 
 
 var NavBar = function NavBar() {
@@ -267,20 +274,21 @@ var NavBar = function NavBar() {
     className: "NavBarHeader"
   }, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/about",
+    className: "NavBarItem"
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "NavBarItem"
   }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "NavBarItem"
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavTitleContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "NavBarHeader"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    className: "NavBarItem"
   }, "Contact")));
 };
 
