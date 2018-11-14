@@ -2,7 +2,7 @@
   background-image: url('./Media/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center bottom;
   height: 800px;
   min-height: 700px;
 }
@@ -31,7 +31,7 @@
   border-radius: 50%;
   border: 2px solid whitesmoke;
   margin: 0px;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .NavBarHeader {
