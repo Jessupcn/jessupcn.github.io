@@ -18,8 +18,10 @@
   width: 25px;
   border-radius: 50%;
   border: 2px solid whitesmoke;
+  margin-top: 10.5px;
 }
 
 .NavBarHeader {
   color: white;
+  margin-top: 12.5px;
 }
