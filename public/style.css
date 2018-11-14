@@ -1,0 +1,16 @@
+.NavBar {
+  height: 48px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 2px solid olive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavPic {
+  size: 50%;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+}
