@@ -123,7 +123,10 @@ __webpack_require__.r(__webpack_exports__);
 var NavBar = function NavBar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavBar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I Am a lowly navbar"));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../Media/me.jpg",
+    className: "NavPic"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Contact"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
@@ -215,7 +218,10 @@ __webpack_require__.r(__webpack_exports__);
 var NavBar = function NavBar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavBar"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I Am a lowly navbar"));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../Media/me.jpg",
+    className: "NavPic"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Contact"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
