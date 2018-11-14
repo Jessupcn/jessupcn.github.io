@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div className="NavBar">
-      <div className="nav-item">
+      <div className="nav-item flex-row">
         <img src="../../Media/me.jpg" className="NavPic" />
-        <h3 className="NavBarHeader">Connor Jessup</h3>
+        <h3>Connor Jessup</h3>
       </div>
       <div className="nav-item">
         <Link to={`/about`}>About</Link>
