@@ -10,7 +10,7 @@ const Routes = () => {
     <Switch>
       {/* Routes placed here are available to all visitors */}
       {/* <Route path="/champions" component={Champions} /> */}
-      {/*<Route exact path="/about" component={About} /> */}
+      <Route exact path="/about" component={About} />
       {/* Displays our Home component as a fallback */}
       <Route component={About} />
     </Switch>

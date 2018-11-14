@@ -48,15 +48,16 @@
   zoom: 300%;
 }
 
-.nav-item link {
+.nav-item a {
   color: white;
   margin: 0px;
   font-size: 1.3em;
   padding: 5px;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-.nav-item link:hover {
+.nav-item a:hover {
   color: #202b47;
   background-color: #fff;
   box-shadow: #d3d3d3;
