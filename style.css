@@ -16,7 +16,7 @@
   height: 48px;
   width: 100%;
   background-color: black;
-  border-bottom: 2px solid olive;
+  border-bottom: 2px solid whitesmoke;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -46,6 +46,7 @@
 
 .nav-item h3 {
   color: white;
+  text-decoration: none;
 }
 
 .nav-item a {
@@ -71,6 +72,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  margin-top: 3em;
 }
 
 .sectionHeader {
@@ -89,9 +92,20 @@
   border-radius: 20px;
 }
 
-.aboutSectionPic {
+.aboutImageContainer {
   width: 100px;
-  height: auto;
+  height: 200px;
   border: solid 2px white;
   border-radius: 5px;
+  margin: 2em;
+}
+
+.aboutSectionPic {
+  position: relative;
+  zoom: 0.05;
+}
+
+.aboutSectionText {
+  text-align: justify;
+  margin-right: 2em;
 }

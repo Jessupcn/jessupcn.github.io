@@ -3,9 +3,11 @@ import React from 'react';
 const About = () => {
   return (
     <div className="sectionContainer about">
-      <h1 className="sectionHeader">About Connor Jessup</h1>
+      <h1 className="sectionHeader">About Me</h1>
       <div className="flex-row">
-        <img className="aboutSectionPic" src="../../Media/me.jpg" />
+        <div className="aboutImageContainer">
+          <img className="aboutSectionPic" src="../../Media/me.jpg" />
+        </div>
         <p className="aboutSectionText">
           I'm Connor Jessup, a Software Engineer currently located in the New
           York City area. After graduating from the University of Michigan with
