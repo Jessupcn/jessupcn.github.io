@@ -101,11 +101,12 @@
   border: solid 2px white;
   border-radius: 5px;
   margin: 2em;
+  overflow: hidden;
 }
 
 .aboutSectionPic {
   position: relative;
-  zoom: 0.5;
+  /* zoom: 0.15; */
 }
 
 .aboutSectionText {
