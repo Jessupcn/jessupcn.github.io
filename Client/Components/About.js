@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="sectionContainer about">
       <h1 className="sectionHeader">About Me</h1>
-      <div className="flex-row">
+      <div className="flex-row aboutContent">
         <div className="aboutImageContainer">
           <img className="aboutSectionPic" src="../../Media/me.jpg" />
         </div>

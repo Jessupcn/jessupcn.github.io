@@ -105,7 +105,7 @@ var About = function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
   }, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex-row"
+    className: "flex-row aboutContent"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "aboutImageContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -233,7 +233,7 @@ var About = function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
   }, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex-row"
+    className: "flex-row aboutContent"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "aboutImageContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
