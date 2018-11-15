@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="sectionContainer">
+    <div className="sectionContainer about">
       <h1 className="sectionHeader">About Connor Jessup</h1>
-      <div className="aboutSectionInfo">
+      <div className="flex-row">
         <img className="aboutSectionPic" src="../../Media/me.jpg" />
         <p className="aboutSectionText">
           I'm Connor Jessup, a Software Engineer currently located in the New

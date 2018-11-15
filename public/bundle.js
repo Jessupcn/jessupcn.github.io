@@ -101,11 +101,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sectionContainer"
+    className: "sectionContainer about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
   }, "About Connor Jessup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "aboutSectionInfo"
+    className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "aboutSectionPic",
     src: "../../Media/me.jpg"
@@ -227,11 +227,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var About = function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sectionContainer"
+    className: "sectionContainer about"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
   }, "About Connor Jessup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "aboutSectionInfo"
+    className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "aboutSectionPic",
     src: "../../Media/me.jpg"
