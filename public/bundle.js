@@ -109,7 +109,6 @@ var About = function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "aboutImageContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "aboutSectionPic",
     src: "../../Media/me.jpg"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "aboutSectionText"
@@ -140,10 +139,11 @@ var NavBar = function NavBar() {
     className: "NavBar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../../Media/me.jpg",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavPic"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../Media/me.jpg"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/about"
@@ -237,7 +237,6 @@ var About = function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "aboutImageContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: "aboutSectionPic",
     src: "../../Media/me.jpg"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "aboutSectionText"
@@ -268,10 +267,11 @@ var NavBar = function NavBar() {
     className: "NavBar"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../../Media/me.jpg",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "NavPic"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../../Media/me.jpg"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/about"
