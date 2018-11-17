@@ -38,6 +38,12 @@
   margin: 10px;
 }
 
+.NavPic img {
+  position: relative;
+  zoom: 0.02;
+  right: 10px;
+}
+
 .flex-row {
   display: flex;
   justify-content: center;
@@ -105,9 +111,10 @@
   overflow: hidden;
 }
 
-.aboutSectionPic {
+.aboutImageContainer img {
   position: relative;
-  /* zoom: 0.15; */
+  zoom: 0.15;
+  right: 450px;
 }
 
 .aboutSectionText {

@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="sectionHeader">About Me</h1>
       <div className="flex-row aboutContent">
         <div className="aboutImageContainer">
-          <img className="aboutSectionPic" src="../../Media/me.jpg" />
+          <img src="../../Media/me.jpg" />
         </div>
         <p className="aboutSectionText">
           I'm Connor Jessup, a Software Engineer currently located in the New

@@ -5,7 +5,9 @@ const NavBar = () => {
   return (
     <div className="NavBar">
       <div className="nav-item flex-row">
-        <img src="../../Media/me.jpg" className="NavPic" />
+        <div className="NavPic">
+          <img src="../../Media/me.jpg" />
+        </div>
         <h3>Connor Jessup</h3>
       </div>
       <div className="nav-item">
