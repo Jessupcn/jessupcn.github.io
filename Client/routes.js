@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { About } from './components';
+import { About, Contact } from './components';
 
 /**
  * COMPONENT
@@ -9,9 +9,9 @@ const Routes = () => {
   return (
     <Switch>
       {/* Routes placed here are available to all visitors */}
-      {/* <Route path="/champions" component={Champions} /> */}
       <Route exact path="/about" component={About} />
-      {/* Displays our Home component as a fallback */}
+      <Route exact path="/contact" component={Contact} />
+      {/* Displays my About component as a fallback */}
       <Route component={About} />
     </Switch>
   );

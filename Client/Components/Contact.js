@@ -5,7 +5,12 @@ const Contact = () => {
     <div className="sectionContainer contact">
       <h1 className="sectionHeader">Contact Me</h1>
       <div className="contactLogoContainer">
-        <div />
+        <div>
+          <p>LinkedIn</p>
+        </div>
+        <div>
+          <p>github</p>
+        </div>
       </div>
     </div>
   );

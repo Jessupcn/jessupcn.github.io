@@ -119,6 +119,33 @@ var About = function About() {
 
 /***/ }),
 
+/***/ "./Client/Components/Contact.js":
+/*!**************************************!*\
+  !*** ./Client/Components/Contact.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer contact"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "Contact Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contactLogoContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "LinkedIn")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "github"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
 /***/ "./Client/Components/NavBar.js":
 /*!*************************************!*\
   !*** ./Client/Components/NavBar.js ***!
@@ -158,7 +185,7 @@ var NavBar = function NavBar() {
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/about"
+    to: "/contact"
   }, "Contact")));
 };
 
@@ -170,7 +197,7 @@ var NavBar = function NavBar() {
 /*!************************************!*\
   !*** ./Client/Components/index.js ***!
   \************************************/
-/*! exports provided: NavBar, About */
+/*! exports provided: NavBar, About, Contact */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -180,6 +207,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About */ "./Client/Components/About.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _About__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact */ "./Client/Components/Contact.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return _Contact__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
 
 
 
@@ -247,6 +278,33 @@ var About = function About() {
 
 /***/ }),
 
+/***/ "./Client/components/Contact.js":
+/*!**************************************!*\
+  !*** ./Client/components/Contact.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer contact"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "Contact Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contactLogoContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "LinkedIn")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "github"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
 /***/ "./Client/components/NavBar.js":
 /*!*************************************!*\
   !*** ./Client/components/NavBar.js ***!
@@ -286,7 +344,7 @@ var NavBar = function NavBar() {
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/about"
+    to: "/contact"
   }, "Contact")));
 };
 
@@ -298,7 +356,7 @@ var NavBar = function NavBar() {
 /*!************************************!*\
   !*** ./Client/components/index.js ***!
   \************************************/
-/*! exports provided: NavBar, About */
+/*! exports provided: NavBar, About, Contact */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -308,6 +366,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About */ "./Client/components/About.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _About__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact */ "./Client/components/Contact.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return _Contact__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
 
 
 
@@ -387,6 +449,10 @@ var Routes = function Routes() {
     exact: true,
     path: "/about",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["About"]
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/contact",
+    component: _components__WEBPACK_IMPORTED_MODULE_2__["Contact"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     component: _components__WEBPACK_IMPORTED_MODULE_2__["About"]
   }));
