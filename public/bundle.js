@@ -185,7 +185,7 @@ var NavBar = function NavBar() {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "#about"
+    to: "/about"
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -197,7 +197,7 @@ var NavBar = function NavBar() {
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "#contact"
+    to: "/contact"
   }, "Contact")));
 };
 
@@ -356,7 +356,7 @@ var NavBar = function NavBar() {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Connor Jessup")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "#about"
+    to: "/about"
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -368,7 +368,7 @@ var NavBar = function NavBar() {
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "#contact"
+    to: "/contact"
   }, "Contact")));
 };
 
@@ -471,11 +471,11 @@ __webpack_require__.r(__webpack_exports__);
 var Routes = function Routes() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
-    path: "#about",
+    path: "/about",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["About"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
-    path: "#contact",
+    path: "/contact",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["Contact"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     component: _components__WEBPACK_IMPORTED_MODULE_2__["About"]
