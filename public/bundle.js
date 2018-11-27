@@ -140,14 +140,17 @@ var Contact = function Contact() {
   }, "Contact Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contactLogoContainer flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "contactLink",
     href: "https://www.linkedin.com/in/connor-jessup/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/linkedin.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "contactLink",
     href: "https://github.com/Jessupcn"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/github.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "contactLink",
     href: "mailto:jessupcn@gmail.com"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/mail.png"
@@ -311,14 +314,17 @@ var Contact = function Contact() {
   }, "Contact Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contactLogoContainer flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "contactLink",
     href: "https://www.linkedin.com/in/connor-jessup/"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/linkedin.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "contactLink",
     href: "https://github.com/Jessupcn"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/github.png"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "contactLink",
     href: "mailto:jessupcn@gmail.com"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "../../Media/mail.png"

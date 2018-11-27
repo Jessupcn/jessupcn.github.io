@@ -5,13 +5,16 @@ const Contact = () => {
     <div className="sectionContainer contact">
       <h1 className="sectionHeader">Contact Me</h1>
       <div className="contactLogoContainer flex-row">
-        <a href="https://www.linkedin.com/in/connor-jessup/">
+        <a
+          className="contactLink"
+          href="https://www.linkedin.com/in/connor-jessup/"
+        >
           <img src="../../Media/linkedin.png" />
         </a>
-        <a href="https://github.com/Jessupcn">
+        <a className="contactLink" href="https://github.com/Jessupcn">
           <img src="../../Media/github.png" />
         </a>
-        <a href="mailto:jessupcn@gmail.com">
+        <a className="contactLink" href="mailto:jessupcn@gmail.com">
           <img src="../../Media/mail.png" />
         </a>
       </div>
