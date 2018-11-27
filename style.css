@@ -75,16 +75,26 @@
 *   Section CSS
 */
 .sectionContainer {
+  /* flex box aligning*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  /* margins */
   margin: auto;
   margin-top: 3em;
+
+  /* background color and border*/
+  background-color: rgb(239, 247, 255, 0.5);
+  border-radius: 20px;
 }
 
 .sectionHeader {
   margin-bottom: 0px;
+  border-bottom: 2px solid black;
+  text-align: center;
+  width: 175px;
 }
 
 /*
@@ -95,8 +105,8 @@
   max-width: 650px;
   min-width: 550px;
   height: auto;
-  background-color: rgb(239, 247, 255, 0.5);
-  border-radius: 20px;
+  /* background-color: rgb(239, 247, 255, 0.5);
+  border-radius: 20px; */
 }
 
 .aboutContent p {
@@ -121,4 +131,13 @@
 .aboutSectionText {
   text-align: justify;
   margin-right: 2em;
+}
+
+/*
+*   About Section CSS
+*/
+
+.contact {
+  width: 250px;
+  height: 275px;
 }
