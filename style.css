@@ -78,7 +78,7 @@
   /* flex box aligning*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   /* margins */
@@ -138,13 +138,14 @@
 */
 
 .contact {
-  width: 250px;
-  height: 275px;
+  width: 350px;
+  height: 175px;
 }
 
 .contactLink {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+  margin: 30px 15px;
 }
 
 .contactLink img {
