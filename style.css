@@ -134,10 +134,15 @@
 }
 
 /*
-*   About Section CSS
+*   Contact Section CSS
 */
 
 .contact {
   width: 250px;
   height: 275px;
+}
+
+.contactLogoContainer a {
+  width: 20px;
+  height: 20px;
 }
