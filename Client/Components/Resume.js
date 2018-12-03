@@ -21,11 +21,11 @@ const Resume = () => {
       <div className="resumeSection">
         <h3>EDUCATION:</h3>
         <div>
-          <div>
+          <div className="flex-row">
             <h5>Fullstack Academy of Code</h5>
             <h5>New York, NY</h5>
           </div>
-          <div>
+          <div className="flex-row">
             <p>Immersive Coding Bootcamp</p>
             <p>Jan. 2018 - May. 2018</p>
           </div>

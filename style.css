@@ -13,14 +13,22 @@
 */
 
 .NavBar {
+  /* style NavBar*/
   height: 48px;
   width: 100%;
   background-color: #202b47;
   border-bottom: 2px solid whitesmoke;
+
+  /* placing Links in NavBar*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+
+  /* Make NavBar stick to top */
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 .NavTitleContainer {
@@ -172,10 +180,13 @@
   width: 800px;
 }
 
+.resumeSection {
+  border-bottom: 1px solid #202b47;
+}
+
 .resumeSection h3 {
   text-decoration: underline;
   width: 90%;
-  border-bottom: 1px solid #202b47;
 }
 
 .resumeSection h5 {
