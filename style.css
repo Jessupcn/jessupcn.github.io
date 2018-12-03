@@ -41,8 +41,9 @@
 
 .NavPic img {
   position: relative;
-  zoom: 0.02;
-  right: 20px;
+  zoom: 0.03;
+  right: 525px;
+  bottom: 100px;
 }
 
 .flex-row {
