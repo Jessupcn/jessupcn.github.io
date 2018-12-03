@@ -1,37 +1,30 @@
 import React from 'react';
+import SingleProject from './SingleProject';
 
-const About = () => {
+/**
+ * Hard-coded project data for easy access
+ */
+const projects = [
+  { title: 'SimpleStocks', description: '', images: [] },
+  { title: 'DevBook', description: '', images: [] },
+  { title: 'Mr. Mixologist', description: '', images: [] }
+];
+
+/**
+ * Component
+ */
+
+const Projects = () => {
   return (
     <div className="sectionContainer about">
-      <h1 className="sectionHeader">Projects</h1>
-      <div className="flex-row aboutContent">
-        <div className="portfolioSection">
-          <h3>SimpleStocks</h3>
-          <div>
-            <p />
-            <img />
-          </div>
-        </div>
-        <div className="portfolioSection">
-          <h3>DevBook</h3>
-          <div>
-            <p />
-            <img />
-          </div>
-        </div>
-        <div className="portfolioSection">
-          <h3>Mr. Mixologist</h3>
-          <div>
-            <p />
-            <img />
-          </div>
-          <div>
-            <a href="" />
-          </div>
-        </div>
+      <div>
+        <h1 className="sectionHeader">Projects</h1>
       </div>
+      {projects.map(project => {
+        return <SingleProject key={project.title} project={project} />;
+      })}
     </div>
   );
 };
 
-export default About;
+export default Projects;
