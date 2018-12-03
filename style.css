@@ -162,3 +162,11 @@
   padding-bottom: 25px;
   border-bottom: 1px solid #202b47;
 }
+
+/**
+ * Resume CSS
+ */
+
+.resume {
+  width: 500px;
+}
