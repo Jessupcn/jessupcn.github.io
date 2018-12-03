@@ -18,6 +18,19 @@ const Resume = () => {
         <h5>Knowledgeable:</h5>
         <p>Mocha, Chai, Bootstrap, JQuery, OAuth</p>
       </div>
+      <div className="resumeSection">
+        <h3>EDUCATION:</h3>
+        <div>
+          <div>
+            <h5>Fullstack Academy of Code</h5>
+            <h5>New York, NY</h5>
+          </div>
+          <div>
+            <p>Immersive Coding Bootcamp</p>
+            <p>Jan. 2018 - May. 2018</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

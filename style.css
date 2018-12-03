@@ -175,6 +175,7 @@
 .resumeSection h3 {
   text-decoration: underline;
   width: 90%;
+  border-bottom: 1px solid #202b47;
 }
 
 .resumeSection h5 {
