@@ -196,7 +196,7 @@ var NavBar = function NavBar() {
   }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/about"
+    to: "/projects"
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -208,11 +208,90 @@ var NavBar = function NavBar() {
 
 /***/ }),
 
+/***/ "./Client/Components/Projects.js":
+/*!***************************************!*\
+  !*** ./Client/Components/Projects.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SingleProject */ "./Client/Components/SingleProject.js");
+
+
+/**
+ * Hard-coded project data for easy access
+ */
+
+var projects = [{
+  title: 'SimpleStocks',
+  description: '',
+  images: []
+}, {
+  title: 'DevBook',
+  description: '',
+  images: []
+}, {
+  title: 'Mr. Mixologist',
+  description: '',
+  images: []
+}];
+/**
+ * Component
+ */
+
+var Projects = function Projects() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer about"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "Projects")), projects.map(function (project) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SingleProject__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      key: project.title,
+      project: project
+    });
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
+
+/***/ }),
+
+/***/ "./Client/Components/SingleProject.js":
+/*!********************************************!*\
+  !*** ./Client/Components/SingleProject.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * Component
+ */
+
+var SingleProject = function SingleProject(_ref) {
+  var project = _ref.project;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projectSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, project.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SingleProject);
+
+/***/ }),
+
 /***/ "./Client/Components/index.js":
 /*!************************************!*\
   !*** ./Client/Components/index.js ***!
   \************************************/
-/*! exports provided: NavBar, About, Contact */
+/*! exports provided: NavBar, About, Contact, Projects, SingleProject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -225,6 +304,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact */ "./Client/Components/Contact.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return _Contact__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Projects */ "./Client/Components/Projects.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Projects", function() { return _Projects__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleProject */ "./Client/Components/SingleProject.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SingleProject", function() { return _SingleProject__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+
 
 
 
@@ -370,7 +457,7 @@ var NavBar = function NavBar() {
   }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/about"
+    to: "/projects"
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -382,11 +469,90 @@ var NavBar = function NavBar() {
 
 /***/ }),
 
+/***/ "./Client/components/Projects.js":
+/*!***************************************!*\
+  !*** ./Client/components/Projects.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SingleProject */ "./Client/components/SingleProject.js");
+
+
+/**
+ * Hard-coded project data for easy access
+ */
+
+var projects = [{
+  title: 'SimpleStocks',
+  description: '',
+  images: []
+}, {
+  title: 'DevBook',
+  description: '',
+  images: []
+}, {
+  title: 'Mr. Mixologist',
+  description: '',
+  images: []
+}];
+/**
+ * Component
+ */
+
+var Projects = function Projects() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer about"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "Projects")), projects.map(function (project) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SingleProject__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      key: project.title,
+      project: project
+    });
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
+
+/***/ }),
+
+/***/ "./Client/components/SingleProject.js":
+/*!********************************************!*\
+  !*** ./Client/components/SingleProject.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * Component
+ */
+
+var SingleProject = function SingleProject(_ref) {
+  var project = _ref.project;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projectSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, project.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SingleProject);
+
+/***/ }),
+
 /***/ "./Client/components/index.js":
 /*!************************************!*\
   !*** ./Client/components/index.js ***!
   \************************************/
-/*! exports provided: NavBar, About, Contact */
+/*! exports provided: NavBar, About, Contact, Projects, SingleProject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -399,6 +565,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact */ "./Client/components/Contact.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return _Contact__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Projects */ "./Client/components/Projects.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Projects", function() { return _Projects__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleProject */ "./Client/components/SingleProject.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SingleProject", function() { return _SingleProject__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+
 
 
 
@@ -476,6 +650,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var Routes = function Routes() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/projects",
+    component: _components__WEBPACK_IMPORTED_MODULE_2__["Projects"]
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/about",
     component: _components__WEBPACK_IMPORTED_MODULE_2__["About"]
