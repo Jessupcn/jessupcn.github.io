@@ -260,6 +260,34 @@ var Projects = function Projects() {
 
 /***/ }),
 
+/***/ "./Client/Components/Resume.js":
+/*!*************************************!*\
+  !*** ./Client/Components/Resume.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * Component
+ */
+
+var Resume = function Resume() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer resume"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Resume);
+
+/***/ }),
+
 /***/ "./Client/Components/SingleProject.js":
 /*!********************************************!*\
   !*** ./Client/Components/SingleProject.js ***!
@@ -291,7 +319,7 @@ var SingleProject = function SingleProject(_ref) {
 /*!************************************!*\
   !*** ./Client/Components/index.js ***!
   \************************************/
-/*! exports provided: NavBar, About, Contact, Projects, SingleProject */
+/*! exports provided: NavBar, About, Contact, Projects, SingleProject, Resume */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -310,6 +338,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleProject */ "./Client/Components/SingleProject.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SingleProject", function() { return _SingleProject__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _Resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Resume */ "./Client/Components/Resume.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Resume", function() { return _Resume__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
 
 
 
@@ -521,6 +553,34 @@ var Projects = function Projects() {
 
 /***/ }),
 
+/***/ "./Client/components/Resume.js":
+/*!*************************************!*\
+  !*** ./Client/components/Resume.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/**
+ * Component
+ */
+
+var Resume = function Resume() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "sectionContainer resume"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "sectionHeader"
+  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Resume);
+
+/***/ }),
+
 /***/ "./Client/components/SingleProject.js":
 /*!********************************************!*\
   !*** ./Client/components/SingleProject.js ***!
@@ -552,7 +612,7 @@ var SingleProject = function SingleProject(_ref) {
 /*!************************************!*\
   !*** ./Client/components/index.js ***!
   \************************************/
-/*! exports provided: NavBar, About, Contact, Projects, SingleProject */
+/*! exports provided: NavBar, About, Contact, Projects, SingleProject, Resume */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -571,6 +631,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SingleProject */ "./Client/components/SingleProject.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SingleProject", function() { return _SingleProject__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _Resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Resume */ "./Client/components/Resume.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Resume", function() { return _Resume__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
 
 
 
