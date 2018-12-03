@@ -281,7 +281,9 @@ var Resume = function Resume() {
     className: "sectionContainer resume"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
-  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")));
+  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);
@@ -574,7 +576,9 @@ var Resume = function Resume() {
     className: "sectionContainer resume"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
-  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")));
+  }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);

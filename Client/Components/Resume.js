@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <div className="sectionContainer resume">
       <h1 className="sectionHeader">Resume</h1>
-      <div>
+      <div className="resumeSection">
         <h3>TECHNOLOGIES:</h3>
         <h5>Proficient:</h5>
         <p>

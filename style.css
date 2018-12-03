@@ -169,5 +169,18 @@
  */
 
 .resume {
-  width: 500px;
+  width: 800px;
+}
+
+.resumeSection h3 {
+  text-decoration: underline;
+  width: 90%;
+}
+
+.resumeSection h5 {
+  margin-bottom: 5px;
+}
+
+.resumeSection p {
+  margin: 5px;
 }
