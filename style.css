@@ -56,7 +56,7 @@
 
 .flex-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -181,18 +181,23 @@
 }
 
 .resumeSection {
-  border-bottom: 1px solid #202b47;
+  width: 90%;
 }
 
 .resumeSection h3 {
   text-decoration: underline;
-  width: 90%;
+  margin-bottom: 0px;
 }
 
 .resumeSection h5 {
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 .resumeSection p {
   margin: 5px;
+  font-size: 14px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #202b47;
 }
