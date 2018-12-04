@@ -173,11 +173,11 @@
 }
 
 .projectLink a {
-  height: 30px;
+  height: 25px;
   border: 3px solid #202b47;
   color: #202b47;
   margin: 0px;
-  font-size: 1.3em;
+  font-size: 0.8em;
   padding: 5px;
   border-radius: 5px;
   text-decoration: none;

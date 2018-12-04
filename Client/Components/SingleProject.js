@@ -14,7 +14,7 @@ const SingleProject = ({ project }) => {
         <p>{description}</p>
         <img />
       </div>
-      <div>
+      <div className="flex-row">
         <div className="projectLink">
           <Link to={githubLink}>Github</Link>
         </div>
