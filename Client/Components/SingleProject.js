@@ -11,7 +11,7 @@ const SingleProject = ({ project }) => {
     <div className="projectSection">
       <h3>{title}</h3>
       <div>
-        <p>{description}</p>
+        <p className="projDescription">{description}</p>
         <img />
       </div>
       <div className="flex-row">

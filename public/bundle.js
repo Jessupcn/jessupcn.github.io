@@ -346,7 +346,9 @@ var SingleProject = function SingleProject(_ref) {
       githubLink = project.githubLink;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectSection"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "projDescription"
+  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
@@ -687,7 +689,9 @@ var SingleProject = function SingleProject(_ref) {
       githubLink = project.githubLink;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectSection"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "projDescription"
+  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
