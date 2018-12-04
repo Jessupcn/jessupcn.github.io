@@ -285,7 +285,9 @@ var Resume = function Resume() {
     className: "resumeSection borderBottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeSection borderBottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EDUCATION:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EDUCATION:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeEducation"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Fullstack Academy of Code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
@@ -586,7 +588,9 @@ var Resume = function Resume() {
     className: "resumeSection borderBottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeSection borderBottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EDUCATION:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EDUCATION:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeEducation"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Fullstack Academy of Code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
@@ -705,7 +709,7 @@ __webpack_require__.r(__webpack_exports__);
 
  // give App a router
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Router"], {
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["HashRouter"], {
   history: _history__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app__WEBPACK_IMPORTED_MODULE_4__["default"], null)), document.getElementById('app'));
 

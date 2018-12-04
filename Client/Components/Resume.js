@@ -20,7 +20,7 @@ const Resume = () => {
       </div>
       <div className="resumeSection borderBottom">
         <h3>EDUCATION:</h3>
-        <div>
+        <div className="resumeEducation">
           <div className="flex-row">
             <h5>Fullstack Academy of Code</h5>
             <h5>New York, NY</h5>
