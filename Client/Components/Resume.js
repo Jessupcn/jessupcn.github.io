@@ -30,6 +30,37 @@ const Resume = () => {
             <p>Jan. 2018 - May. 2018</p>
           </div>
         </div>
+        <div className="resumeEducation">
+          <div className="flex-row">
+            <h5>DePaul University</h5>
+            <h5>Chicago, IL</h5>
+          </div>
+          <div className="flex-row">
+            <p>M.S. in Management</p>
+            <p>Sept. 2015 - Dec. 2016</p>
+          </div>
+        </div>
+        <div>
+          <div className="flex-row">
+            <h5>University of Michigan</h5>
+            <h5>Ann Arbor, MI</h5>
+          </div>
+          <div className="flex-row">
+            <p>B.S. in Environmental Sciences</p>
+            <p>Sept. 2010 - May. 2014</p>
+          </div>
+        </div>
+      </div>
+      <div className="resumeSection">
+        <h3>EXPERIENCE:</h3>
+        <div className="flex-row">
+          <h5>Jessup Engineering Inc.</h5>
+          <h5>Rochester Hills, MI</h5>
+        </div>
+        <div className="flex-row">
+          <h5>Operations Manager</h5>
+          <h5>June 2014 - Dec. 2017</h5>
+        </div>
       </div>
     </div>
   );

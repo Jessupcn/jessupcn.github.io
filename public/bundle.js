@@ -291,7 +291,23 @@ var Resume = function Resume() {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Fullstack Academy of Code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Immersive Coding Bootcamp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jan. 2018 - May. 2018")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Immersive Coding Bootcamp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jan. 2018 - May. 2018"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeEducation"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "DePaul University"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Chicago, IL")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "M.S. in Management"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sept. 2015 - Dec. 2016"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "University of Michigan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Ann Arbor, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "B.S. in Environmental Sciences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sept. 2010 - May. 2014")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EXPERIENCE:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Jessup Engineering Inc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rochester Hills, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Operations Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "June 2014 - Dec. 2017"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);
@@ -594,7 +610,23 @@ var Resume = function Resume() {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Fullstack Academy of Code"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Immersive Coding Bootcamp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jan. 2018 - May. 2018")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Immersive Coding Bootcamp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Jan. 2018 - May. 2018"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeEducation"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "DePaul University"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Chicago, IL")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "M.S. in Management"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sept. 2015 - Dec. 2016"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "University of Michigan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Ann Arbor, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "B.S. in Environmental Sciences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sept. 2010 - May. 2014")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resumeSection"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EXPERIENCE:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Jessup Engineering Inc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rochester Hills, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Operations Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "June 2014 - Dec. 2017"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);
