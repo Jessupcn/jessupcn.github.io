@@ -8,7 +8,11 @@ import { Link } from 'react-router-dom';
 const SingleProject = ({ project }) => {
   const { title, description, deployedLink, githubLink } = project;
   return (
-    <div className="projectSection">
+    <div
+      className={
+        project.borderBottom ? 'projectSection borderBottom' : 'projectSection'
+      }
+    >
       <h3>{title}</h3>
       <div>
         <p className="projDescription">{description}</p>
