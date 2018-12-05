@@ -311,7 +311,7 @@ var Resume = function Resume() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "University of Michigan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Ann Arbor, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "B.S. in Environmental Sciences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sept. 2010 - May. 2014")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "resumeSection"
+    className: "resumeSection experienceSection"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EXPERIENCE:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Jessup Engineering Inc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rochester Hills, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -358,7 +358,7 @@ var SingleProject = function SingleProject(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex-row"
+    className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -663,7 +663,7 @@ var Resume = function Resume() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "University of Michigan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Ann Arbor, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "B.S. in Environmental Sciences"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sept. 2010 - May. 2014")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "resumeSection"
+    className: "resumeSection experienceSection"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EXPERIENCE:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Jessup Engineering Inc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rochester Hills, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -710,7 +710,7 @@ var SingleProject = function SingleProject(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flex-row"
+    className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {

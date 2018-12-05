@@ -51,7 +51,7 @@ const Resume = () => {
           </div>
         </div>
       </div>
-      <div className="resumeSection">
+      <div className="resumeSection experienceSection">
         <h3>EXPERIENCE:</h3>
         <div className="flex-row">
           <h5>Jessup Engineering Inc.</h5>
