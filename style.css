@@ -177,6 +177,13 @@
 
 .projDescription {
   font-size: 0.8em;
+  width: 360px;
+}
+
+.projImgContainer {
+  padding-left: 25px;
+  width: 335px;
+  height: auto;
 }
 
 .projectLinksContainer {

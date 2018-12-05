@@ -229,7 +229,7 @@ __webpack_require__.r(__webpack_exports__);
 var projects = [{
   title: 'SimpleStocks',
   description: "A simple stock web application built using an Express.js server and a React/Redux front end. User's can purchase stocks at their current prices and check their portfolio.",
-  images: [],
+  images: '../../Media/simpleStocks',
   githubLink: 'https://github.com/Jessupcn/TTP-FS-20180728',
   deployedLink: 'https://simple-stocks-ttp.herokuapp.com/',
   borderBottom: true
@@ -357,7 +357,9 @@ var SingleProject = function SingleProject(_ref) {
     className: project.borderBottom ? 'projectSection borderBottom' : 'projectSection'
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
-  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projImgContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
@@ -581,7 +583,7 @@ __webpack_require__.r(__webpack_exports__);
 var projects = [{
   title: 'SimpleStocks',
   description: "A simple stock web application built using an Express.js server and a React/Redux front end. User's can purchase stocks at their current prices and check their portfolio.",
-  images: [],
+  images: '../../Media/simpleStocks',
   githubLink: 'https://github.com/Jessupcn/TTP-FS-20180728',
   deployedLink: 'https://simple-stocks-ttp.herokuapp.com/',
   borderBottom: true
@@ -709,7 +711,9 @@ var SingleProject = function SingleProject(_ref) {
     className: project.borderBottom ? 'projectSection borderBottom' : 'projectSection'
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
-  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projImgContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
