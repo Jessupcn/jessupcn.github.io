@@ -180,6 +180,11 @@
   height: auto;
 }
 
+.projImgContainer img {
+  width: 100%;
+  height: auto;
+}
+
 .projectLinksContainer {
   justify-content: flex-start;
 }
