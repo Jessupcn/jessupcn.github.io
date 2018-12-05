@@ -236,14 +236,14 @@ var projects = [{
 }, {
   title: 'DevBook',
   description: 'My senior capstone project at Fullstack Academy of Code. A web application that allows users to type and run code and logs the results. During this project, I was highly involved on building the frontend using ReactJS, user authentication, and connecting the frontend to Google Cloud Firestore.',
-  images: [],
+  images: '',
   githubLink: 'https://github.com/devbook-live/DevBook',
   deployedLink: '',
   borderBottom: true
 }, {
   title: 'Mr. Mixologist',
   description: 'My "Stackathon" project at Fullstack Academy of Code. A mobile application that allows users to select ingredients, and using a complex association table, gives back the cocktails that can be created with those ingredients. Created during a 4-day hackathon. Utilizes an Express.js backend and a React-Native mobile frontend. ',
-  images: [],
+  images: '',
   githubLink: 'https://github.com/MrMixologist',
   deployedLink: '',
   borderBottom: false
@@ -349,17 +349,24 @@ __webpack_require__.r(__webpack_exports__);
 
 var SingleProject = function SingleProject(_ref) {
   var project = _ref.project;
+  // Deconstructing props
   var title = project.title,
       description = project.description,
       deployedLink = project.deployedLink,
-      githubLink = project.githubLink;
+      githubLink = project.githubLink,
+      borderBottom = project.borderBottom,
+      images = project.images;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: project.borderBottom ? 'projectSection borderBottom' : 'projectSection'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: borderBottom ? 'projectSection borderBottom' : 'projectSection'
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projImgContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: images.length ? images : null
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
@@ -590,14 +597,14 @@ var projects = [{
 }, {
   title: 'DevBook',
   description: 'My senior capstone project at Fullstack Academy of Code. A web application that allows users to type and run code and logs the results. During this project, I was highly involved on building the frontend using ReactJS, user authentication, and connecting the frontend to Google Cloud Firestore.',
-  images: [],
+  images: '',
   githubLink: 'https://github.com/devbook-live/DevBook',
   deployedLink: '',
   borderBottom: true
 }, {
   title: 'Mr. Mixologist',
   description: 'My "Stackathon" project at Fullstack Academy of Code. A mobile application that allows users to select ingredients, and using a complex association table, gives back the cocktails that can be created with those ingredients. Created during a 4-day hackathon. Utilizes an Express.js backend and a React-Native mobile frontend. ',
-  images: [],
+  images: '',
   githubLink: 'https://github.com/MrMixologist',
   deployedLink: '',
   borderBottom: false
@@ -703,17 +710,24 @@ __webpack_require__.r(__webpack_exports__);
 
 var SingleProject = function SingleProject(_ref) {
   var project = _ref.project;
+  // Deconstructing props
   var title = project.title,
       description = project.description,
       deployedLink = project.deployedLink,
-      githubLink = project.githubLink;
+      githubLink = project.githubLink,
+      borderBottom = project.borderBottom,
+      images = project.images;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: project.borderBottom ? 'projectSection borderBottom' : 'projectSection'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: borderBottom ? 'projectSection borderBottom' : 'projectSection'
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projImgContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: images.length ? images : null
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"

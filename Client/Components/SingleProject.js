@@ -6,18 +6,27 @@ import { Link } from 'react-router-dom';
  */
 
 const SingleProject = ({ project }) => {
-  const { title, description, deployedLink, githubLink } = project;
+  // Deconstructing props
+  const {
+    title,
+    description,
+    deployedLink,
+    githubLink,
+    borderBottom,
+    images
+  } = project;
+
   return (
     <div
       className={
-        project.borderBottom ? 'projectSection borderBottom' : 'projectSection'
+        borderBottom ? 'projectSection borderBottom' : 'projectSection'
       }
     >
       <h3>{title}</h3>
-      <div>
+      <div className="flex-row">
         <p className="projDescription">{description}</p>
         <div className="projImgContainer">
-          <img />
+          <img src={images.length ? images : null} />
         </div>
       </div>
       <div className="flex-row projectLinksContainer">
