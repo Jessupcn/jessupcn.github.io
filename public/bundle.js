@@ -313,7 +313,13 @@ var Resume = function Resume() {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Jessup Engineering Inc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rochester Hills, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Operations Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "June 2014 - Dec. 2017"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Operations Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "June 2014 - Dec. 2017")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "experienceBullets"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Designed machine layouts for sales presentations using AutoCAD 2015 based on client specifications, continuously modifying the layouts to achieve client approval."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Communicated and worked cross-functionally to meet deliverables in a timely manner."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Created financial analysis reporting for upper management (President and Controller).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Administrative Assistant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Summer 2012, Summer 2013")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "experienceBullets"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Calculated current machine proposal pricing for prospective customers by determining individual machine component/labor costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Dynamically updated Excel worksheets to reflect current machine costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Organized and updated employee payroll/insurance files."))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);
@@ -656,7 +662,13 @@ var Resume = function Resume() {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Jessup Engineering Inc."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rochester Hills, MI")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Operations Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "June 2014 - Dec. 2017"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Operations Manager"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "June 2014 - Dec. 2017")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "experienceBullets"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Designed machine layouts for sales presentations using AutoCAD 2015 based on client specifications, continuously modifying the layouts to achieve client approval."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Communicated and worked cross-functionally to meet deliverables in a timely manner."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Created financial analysis reporting for upper management (President and Controller).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "flex-row"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Administrative Assistant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Summer 2012, Summer 2013")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "experienceBullets"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Calculated current machine proposal pricing for prospective customers by determining individual machine component/labor costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Dynamically updated Excel worksheets to reflect current machine costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Organized and updated employee payroll/insurance files."))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);

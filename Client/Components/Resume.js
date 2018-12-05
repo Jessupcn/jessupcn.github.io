@@ -61,6 +61,36 @@ const Resume = () => {
           <h5>Operations Manager</h5>
           <h5>June 2014 - Dec. 2017</h5>
         </div>
+        <div className="experienceBullets">
+          <p>
+            - Designed machine layouts for sales presentations using AutoCAD
+            2015 based on client specifications, continuously modifying the
+            layouts to achieve client approval.
+          </p>
+          <p>
+            - Communicated and worked cross-functionally to meet deliverables in
+            a timely manner.
+          </p>
+          <p>
+            - Created financial analysis reporting for upper management
+            (President and Controller).
+          </p>
+        </div>
+        <div className="flex-row">
+          <h5>Administrative Assistant</h5>
+          <h5>Summer 2012, Summer 2013</h5>
+        </div>
+        <div className="experienceBullets">
+          <p>
+            - Calculated current machine proposal pricing for prospective
+            customers by determining individual machine component/labor costs.
+          </p>
+          <p>
+            - Dynamically updated Excel worksheets to reflect current machine
+            costs.
+          </p>
+          <p>- Organized and updated employee payroll/insurance files.</p>
+        </div>
       </div>
     </div>
   );
