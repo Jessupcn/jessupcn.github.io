@@ -166,8 +166,12 @@
  * Projects CSS
  */
 
-.projectSection {
+.projects {
   width: 800px;
+}
+
+.projectSection {
+  width: 90%;
   padding-bottom: 25px;
   border-bottom: 1px solid #202b47;
 }

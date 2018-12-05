@@ -251,7 +251,7 @@ var projects = [{
 
 var Projects = function Projects() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sectionContainer about"
+    className: "sectionContainer projects"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
   }, "Projects")), projects.map(function (project) {
@@ -600,7 +600,7 @@ var projects = [{
 
 var Projects = function Projects() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "sectionContainer about"
+    className: "sectionContainer projects"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "sectionHeader"
   }, "Projects")), projects.map(function (project) {
