@@ -16,11 +16,11 @@ const SingleProject = ({ project }) => {
       </div>
       <div className="flex-row">
         <div className="projectLink">
-          <Link to={githubLink}>Github</Link>
+          <a href={githubLink}>Github</a>
         </div>
         {deployedLink.length ? (
           <div className="projectLink">
-            <Link to={deployedLink}>Deployed Site</Link>
+            <a href={deployedLink}>Deployed Site</a>
           </div>
         ) : null}
       </div>

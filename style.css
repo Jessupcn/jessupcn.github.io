@@ -167,7 +167,7 @@
  */
 
 .projectSection {
-  width: 65%;
+  width: 800px;
   padding-bottom: 25px;
   border-bottom: 1px solid #202b47;
 }
@@ -210,14 +210,18 @@
 }
 
 .resumeSection h5 {
-  margin: 5px;
+  margin: 5px 5px 0px 5px;
 }
 
 .resumeSection p {
-  margin: 5px;
-  font-size: 14px;
+  margin: 5px 5px 20px 5px;
+  font-size: 12px;
 }
 
 .borderBottom {
   border-bottom: 1px solid #202b47;
+}
+
+.experienceBullets p {
+  margin: 5px 5px 0px 5px;
 }
