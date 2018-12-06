@@ -21,9 +21,9 @@ const SingleProject = ({ project }) => {
         borderBottom ? 'projectSection borderBottom' : 'projectSection'
       }
     >
-      <h3>{title}</h3>
       <div className="flex-row">
         <div className="flex-col">
+          <h3>{title}</h3>
           <p className="projDescription">{description}</p>
           <div className="flex-row projectLinksContainer">
             <div className="projectLink">

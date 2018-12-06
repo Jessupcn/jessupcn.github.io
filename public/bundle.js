@@ -356,11 +356,11 @@ var SingleProject = function SingleProject(_ref) {
       images = project.images;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: borderBottom ? 'projectSection borderBottom' : 'projectSection'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-col"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
@@ -717,11 +717,11 @@ var SingleProject = function SingleProject(_ref) {
       images = project.images;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: borderBottom ? 'projectSection borderBottom' : 'projectSection'
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-col"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
