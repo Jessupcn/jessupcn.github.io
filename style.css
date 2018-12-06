@@ -168,7 +168,7 @@
  */
 
 .projects {
-  width: 800px;
+  width: 700px;
 }
 
 .projectSection {
@@ -178,18 +178,19 @@
 
 .projDescription {
   font-size: 0.8em;
-  width: 360px;
+  width: 315px;
 }
 
 .projImgContainer {
   padding-left: 25px;
-  width: 335px;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 
 .projImgContainer img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 .projectLinksContainer {

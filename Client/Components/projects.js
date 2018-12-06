@@ -7,7 +7,7 @@ import SingleProject from './SingleProject';
 const projects = [
   {
     title: 'SimpleStocks',
-    description: `A simple stock web application built using an Express.js server and a React/Redux front end. User's can purchase stocks at their current prices and check their portfolio.`,
+    description: `A simple stock web application built using an Express.js server and a React/Redux front end. Users can purchase stocks at their current prices and check their portfolio.`,
     images: '../../Media/simpleStocks.png',
     githubLink: 'https://github.com/Jessupcn/TTP-FS-20180728',
     deployedLink: 'https://simple-stocks-ttp.herokuapp.com/',
