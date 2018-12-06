@@ -363,10 +363,6 @@ var SingleProject = function SingleProject(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "projImgContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: images.length ? images : null
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
@@ -376,7 +372,11 @@ var SingleProject = function SingleProject(_ref) {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: deployedLink
-  }, "Deployed Site")) : null));
+  }, "Deployed Site")) : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projImgContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: images.length ? images : null
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SingleProject);
@@ -724,10 +724,6 @@ var SingleProject = function SingleProject(_ref) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "projImgContainer"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: images.length ? images : null
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projectLink"
@@ -737,7 +733,11 @@ var SingleProject = function SingleProject(_ref) {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: deployedLink
-  }, "Deployed Site")) : null));
+  }, "Deployed Site")) : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projImgContainer"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: images.length ? images : null
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SingleProject);
