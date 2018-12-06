@@ -372,11 +372,11 @@ var SingleProject = function SingleProject(_ref) {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: deployedLink
-  }, "Deployed Site")) : null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Deployed Site")) : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projImgContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: images.length ? images : null
-  })));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SingleProject);
@@ -733,11 +733,11 @@ var SingleProject = function SingleProject(_ref) {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: deployedLink
-  }, "Deployed Site")) : null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Deployed Site")) : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projImgContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: images.length ? images : null
-  })));
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SingleProject);

@@ -37,9 +37,9 @@ const SingleProject = ({ project }) => {
             ) : null}
           </div>
         </div>
-      </div>
-      <div className="projImgContainer">
-        <img src={images.length ? images : null} />
+        <div className="projImgContainer">
+          <img src={images.length ? images : null} />
+        </div>
       </div>
     </div>
   );
