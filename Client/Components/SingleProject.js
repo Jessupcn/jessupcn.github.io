@@ -24,16 +24,18 @@ const SingleProject = ({ project }) => {
     >
       <h3>{title}</h3>
       <div className="flex-row">
-        <p className="projDescription">{description}</p>
-        <div className="flex-row projectLinksContainer">
-          <div className="projectLink">
-            <a href={githubLink}>Github</a>
-          </div>
-          {deployedLink.length ? (
+        <div>
+          <p className="projDescription">{description}</p>
+          <div className="flex-row projectLinksContainer">
             <div className="projectLink">
-              <a href={deployedLink}>Deployed Site</a>
+              <a href={githubLink}>Github</a>
             </div>
-          ) : null}
+            {deployedLink.length ? (
+              <div className="projectLink">
+                <a href={deployedLink}>Deployed Site</a>
+              </div>
+            ) : null}
+          </div>
         </div>
       </div>
       <div className="projImgContainer">

@@ -360,7 +360,7 @@ var SingleProject = function SingleProject(_ref) {
     className: borderBottom ? 'projectSection borderBottom' : 'projectSection'
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
@@ -372,7 +372,7 @@ var SingleProject = function SingleProject(_ref) {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: deployedLink
-  }, "Deployed Site")) : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Deployed Site")) : null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projImgContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: images.length ? images : null
@@ -721,7 +721,7 @@ var SingleProject = function SingleProject(_ref) {
     className: borderBottom ? 'projectSection borderBottom' : 'projectSection'
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "projDescription"
   }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row projectLinksContainer"
@@ -733,7 +733,7 @@ var SingleProject = function SingleProject(_ref) {
     className: "projectLink"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: deployedLink
-  }, "Deployed Site")) : null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Deployed Site")) : null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "projImgContainer"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: images.length ? images : null

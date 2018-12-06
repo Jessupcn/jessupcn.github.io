@@ -56,6 +56,13 @@
   align-items: center;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .nav-item h3 {
   color: white;
   text-decoration: none;
