@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 /**
  * Component
@@ -24,7 +23,7 @@ const SingleProject = ({ project }) => {
     >
       <h3>{title}</h3>
       <div className="flex-row">
-        <div>
+        <div className="flex-col">
           <p className="projDescription">{description}</p>
           <div className="flex-row projectLinksContainer">
             <div className="projectLink">
