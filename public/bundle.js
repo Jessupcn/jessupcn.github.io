@@ -236,9 +236,9 @@ var projects = [{
 }, {
   title: 'DevBook',
   description: 'My senior capstone project at Fullstack Academy of Code. A web application that allows users to type and run code and logs the results. During this project, I was highly involved on building the frontend using ReactJS, user authentication, and connecting the frontend to Google Cloud Firestore.',
-  images: '',
+  images: '../../Media/devBook.png',
   githubLink: 'https://github.com/devbook-live/DevBook',
-  deployedLink: '../../Media/devBook.png',
+  deployedLink: '',
   borderBottom: true
 }, {
   title: 'Mr. Mixologist',
@@ -597,9 +597,9 @@ var projects = [{
 }, {
   title: 'DevBook',
   description: 'My senior capstone project at Fullstack Academy of Code. A web application that allows users to type and run code and logs the results. During this project, I was highly involved on building the frontend using ReactJS, user authentication, and connecting the frontend to Google Cloud Firestore.',
-  images: '',
+  images: '../../Media/devBook.png',
   githubLink: 'https://github.com/devbook-live/DevBook',
-  deployedLink: '../../Media/devBook.png',
+  deployedLink: '',
   borderBottom: true
 }, {
   title: 'Mr. Mixologist',
