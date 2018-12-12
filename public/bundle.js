@@ -292,7 +292,7 @@ var Resume = function Resume() {
     className: "sectionHeader"
   }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeSection borderBottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, Python, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React-Redux, React-Native, PostgreSQL, Firebase, Unix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeSection borderBottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EDUCATION:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeEducation"
@@ -647,7 +647,7 @@ var Resume = function Resume() {
     className: "sectionHeader"
   }, "Resume"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeSection borderBottom"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React- Redux, React-Native, PostgreSQL, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "TECHNOLOGIES:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Proficient:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript, Node.js, Python, HTML, CSS, React, Redux, Express, Sequelize, Semantic UI, Git, React-Redux, React-Native, PostgreSQL, Firebase, Unix"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Knowledgeable:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mocha, Chai, Bootstrap, JQuery, OAuth")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeSection borderBottom"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EDUCATION:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "resumeEducation"
