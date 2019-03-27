@@ -54,6 +54,24 @@ const Resume = () => {
       <div className="resumeSection experienceSection">
         <h3>EXPERIENCE:</h3>
         <div className="flex-row">
+          <h5>Rally</h5>
+        </div>
+        <div className="flex-row">
+          <h5>Front End Engineer</h5>
+          <h5>February 2019 - present</h5>
+        </div>
+        <div className="experienceBullets">
+          <p>
+            Tech stack: HTML, CSS, Javascript, Meteor, MongoDB
+          </p>
+          <p>
+            - Lead the development of UI screens for a future mobile application, utilizing HTML and CSS to transform guidelines from the Product Designer into a fluid front-end.
+          </p>
+          <p>
+            - Manage routing and event-handling logic within the application using JavaScript.
+          </p>
+        </div>
+        <div className="flex-row">
           <h5>Jessup Engineering Inc.</h5>
           <h5>Rochester Hills, MI</h5>
         </div>
