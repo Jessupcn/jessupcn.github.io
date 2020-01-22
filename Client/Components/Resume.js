@@ -54,11 +54,39 @@ const Resume = () => {
       <div className="resumeSection experienceSection">
         <h3>EXPERIENCE:</h3>
         <div className="flex-row">
-          <h5>Rally</h5>
+          <h5>New York Life Insurance</h5>
         </div>
         <div className="flex-row">
           <h5>Front End Engineer</h5>
-          <h5>February 2019 - present</h5>
+          <h5>May 2019 - present</h5>
+        </div>
+        <div className="experienceBullets">
+          <p>
+            Tech stack: Javascript, React, Redux, Node.js, AWS, HTML, CSS, Material-UI, Enzyme, Jest
+          </p>
+          <p>
+            - Developed the front-end of a performant, React-based single page web application that allows internal clients to manage insurance cases, effectively handling over 100 data inputs.
+          </p>
+          <p>
+            - Implemented a complex Redux state-management system involving chaining asynchronous backend calls to interact with the database through a REST API.
+          </p>
+          <p>
+          - Built custom error-handling functions to check response codes and populate modals to inform users of both errors and success upon data modification.
+          </p>
+          <p>
+          - Wrote unit tests to ensure all edge cases are handled and the code is working as predicted before release.
+          </p>
+          <p>
+          - Collaborated with Product teams, practicing Agile methodology to efficiently plan and meet deliverables.
+          </p>
+        </div>
+
+        <div className="flex-row">
+          <h5>Rally Date</h5>
+        </div>
+        <div className="flex-row">
+          <h5>Front End Engineer</h5>
+          <h5>February 2019 - May 2019</h5>
         </div>
         <div className="experienceBullets">
           <p>
@@ -71,6 +99,7 @@ const Resume = () => {
             - Manage routing and event-handling logic within the application using JavaScript.
           </p>
         </div>
+
         <div className="flex-row">
           <h5>Jessup Engineering Inc.</h5>
           <h5>Rochester Hills, MI</h5>
@@ -94,6 +123,7 @@ const Resume = () => {
             (President and Controller).
           </p>
         </div>
+
         <div className="flex-row">
           <h5>Administrative Assistant</h5>
           <h5>Summer 2012, Summer 2013</h5>
