@@ -28,7 +28,7 @@ const SingleProject = ({ project }) => {
           <div className="projectLink">
             <a href={githubLink}>Github</a>
           </div>
-          {deployedLink.length ? (
+          {deployedLink ? (
             <div className="projectLink">
               <a href={deployedLink}>Deployed Site</a>
             </div>
