@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center bottom;
   min-width: 850px;
-  height: 850px;
+  padding-bottom: 1em;
   min-height: 700px;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -96,6 +96,7 @@
   /* margins */
   margin: auto;
   margin-top: 3em;
+  margin-bottom: 2em;
 
   /* background color and border*/
   background-color: rgb(239, 247, 255, 0.5);
