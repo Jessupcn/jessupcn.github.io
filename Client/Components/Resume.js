@@ -12,11 +12,11 @@ const Resume = () => {
         <h3>TECHNOLOGIES:</h3>
         <h5>Proficient:</h5>
         <p>
-          JavaScript, Node.js, Python, HTML, CSS, React, Redux, Express, Sequelize,
-          Semantic UI, Git, React-Redux, React-Native, PostgreSQL, Firebase, Unix
+          JavaScript, Node.js, HTML, CSS, React, Redux, Express, Sequelize,
+          Semantic UI, Git, React-Redux, React-Native, PostgreSQL, Firebase
         </p>
         <h5>Knowledgeable:</h5>
-        <p>Mocha, Chai, Bootstrap, JQuery, OAuth</p>
+        <p>Python, JQuery, Meteor, MongoDB, Mocha, Chai, Bootstrap, OAuth, Enzyme, Jest, Mocha, Chai</p>
       </div>
       <div className="resumeSection borderBottom">
         <h3>EDUCATION:</h3>
