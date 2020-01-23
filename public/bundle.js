@@ -315,13 +315,13 @@ var Resume = function Resume() {
     className: "resumeSection experienceSection"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EXPERIENCE:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York Life Insurance")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York Life Insurance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Front End Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "May 2019 - present")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experienceBullets"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tech stack: Javascript, React, Redux, Node.js, AWS, HTML, CSS, Material-UI, Enzyme, Jest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Developed the front-end of a performant, React-based single page web application that allows internal clients to manage insurance cases, effectively handling over 100 data inputs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Implemented a complex Redux state-management system involving chaining asynchronous backend calls to interact with the database through a REST API."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Built custom error-handling functions to check response codes and populate modals to inform users of both errors and success upon data modification."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Wrote unit tests to ensure all edge cases are handled and the code is working as predicted before release."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Collaborated with Product teams, practicing Agile methodology to efficiently plan and meet deliverables.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rally Date")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rally Date"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Front End Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "February 2019 - May 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experienceBullets"
@@ -335,7 +335,7 @@ var Resume = function Resume() {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Administrative Assistant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Summer 2012, Summer 2013")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experienceBullets"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Calculated current machine proposal pricing for prospective customers by determining individual machine component/labor costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Dynamically updated Excel worksheets to reflect current machine costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Organized and updated employee payroll/insurance files."))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Calculated current machine proposal pricing for prospective customers by determining individual machine component/labor costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Dynamically updated Excel worksheets to reflect current machine costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Organized and updated employee payroll/insurance files.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);
@@ -683,13 +683,13 @@ var Resume = function Resume() {
     className: "resumeSection experienceSection"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "EXPERIENCE:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York Life Insurance")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York Life Insurance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Front End Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "May 2019 - present")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experienceBullets"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tech stack: Javascript, React, Redux, Node.js, AWS, HTML, CSS, Material-UI, Enzyme, Jest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Developed the front-end of a performant, React-based single page web application that allows internal clients to manage insurance cases, effectively handling over 100 data inputs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Implemented a complex Redux state-management system involving chaining asynchronous backend calls to interact with the database through a REST API."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Built custom error-handling functions to check response codes and populate modals to inform users of both errors and success upon data modification."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Wrote unit tests to ensure all edge cases are handled and the code is working as predicted before release."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Collaborated with Product teams, practicing Agile methodology to efficiently plan and meet deliverables.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rally Date")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Rally Date"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "New York, NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Front End Engineer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "February 2019 - May 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experienceBullets"
@@ -703,7 +703,7 @@ var Resume = function Resume() {
     className: "flex-row"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Administrative Assistant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Summer 2012, Summer 2013")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "experienceBullets"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Calculated current machine proposal pricing for prospective customers by determining individual machine component/labor costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Dynamically updated Excel worksheets to reflect current machine costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Organized and updated employee payroll/insurance files."))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Calculated current machine proposal pricing for prospective customers by determining individual machine component/labor costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Dynamically updated Excel worksheets to reflect current machine costs."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "- Organized and updated employee payroll/insurance files.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);

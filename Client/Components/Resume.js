@@ -55,6 +55,7 @@ const Resume = () => {
         <h3>EXPERIENCE:</h3>
         <div className="flex-row">
           <h5>New York Life Insurance</h5>
+          <h5>New York, NY</h5>
         </div>
         <div className="flex-row">
           <h5>Front End Engineer</h5>
@@ -84,6 +85,7 @@ const Resume = () => {
 
         <div className="flex-row">
           <h5>Rally Date</h5>
+          <h5>New York, NY</h5>
         </div>
         <div className="flex-row">
           <h5>Front End Engineer</h5>
@@ -141,6 +143,7 @@ const Resume = () => {
           </p>
           <p>- Organized and updated employee payroll/insurance files.</p>
         </div>
+        <br />
       </div>
     </div>
   );
