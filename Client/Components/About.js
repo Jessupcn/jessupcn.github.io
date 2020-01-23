@@ -15,10 +15,7 @@ const About = () => {
           Management, I worked at a small manufacturing company (Jessup
           Engineering Inc.) that my grandfather founded for 2 years. I
           ultimately decided to pursue my passion and transition into Software
-          Engineering, and attended Fullstack Academy of Code from January
-          through May 2018. Since then, I have been working on various personal
-          projects to develop my coding further as well as studying algorithms
-          and data structures!
+          Engineering, and attended Fullstack Academy of Code in 2018. I have been working as a Front End Software Engineer in New York City ever since!
         </p>
       </div>
     </div>

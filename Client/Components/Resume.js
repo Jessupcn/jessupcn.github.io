@@ -80,6 +80,7 @@ const Resume = () => {
           - Collaborated with Product teams, practicing Agile methodology to efficiently plan and meet deliverables.
           </p>
         </div>
+        <br />
 
         <div className="flex-row">
           <h5>Rally Date</h5>
@@ -99,6 +100,7 @@ const Resume = () => {
             - Manage routing and event-handling logic within the application using JavaScript.
           </p>
         </div>
+        <br />
 
         <div className="flex-row">
           <h5>Jessup Engineering Inc.</h5>
